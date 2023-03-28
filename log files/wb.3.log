@@ -1,0 +1,140 @@
+19:29:31 [ERR][      Workbench]: Console redirection failed.
+19:29:31 [INF][      Workbench]: Starting up Workbench
+19:29:31 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 699016015
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 44531712
+19:29:31 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = GOKALP-LAPTOP
+	USERPROFILE = C:\Users\Gökalp
+	HOMEPATH = \Users\Gökalp
+	LOCALAPPDATA = C:\Users\Gökalp\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files (x86)\Rockwell Software\RSCommon;C:\gurobi951\win64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\Gökalp\AppData\Local\Microsoft\WindowsApps
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\GOKALP-LAPTOP
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	GUROBI_HOME = C:\gurobi951\win64
+	SystemDrive = C:
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\Gökalp\AppData\Roaming
+	PROCESSOR_REVISION = 9e0a
+	USERNAME = Gökalp
+	CommonProgramW6432 = C:\Program Files\Common Files
+	TEMP = C:\Users\GKALP~1\AppData\Local\Temp
+	OneDrive = C:\Users\Gökalp\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = GOKALP-LAPTOP
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+	ComSpec = C:\Windows\system32\cmd.exe
+	ALLUSERSPROFILE = C:\ProgramData
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	TMP = C:\Users\GKALP~1\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	USERDOMAIN = GOKALP-LAPTOP
+	PUBLIC = C:\Users\Public
+	__COMPAT_LAYER = DetectorsAppHealth
+19:29:31 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+19:29:31 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\gurobi951\win64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\Gökalp\AppData\Local\Microsoft\WindowsApps
+19:29:31 [INF][ mforms managed]: Initializing mforms wrapper
+19:29:32 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\Gökalp\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+19:29:32 [INF][      WBContext]: WbContext::init
+19:29:35 [INF][            WBA]: Looking for extension modules for WBA...
+19:29:35 [INF][            WBA]: 0 extension modules found
+19:29:35 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+19:29:35 [WRN][            grt]: C:\Users\Gökalp\AppData\Roaming\MySQL\Workbench\server_instances.xml:21: link '{517EFF3F-081A-4124-B658-54DB7D3EDB3E}' <object GrtObject> key=owner could not be resolved
+19:29:35 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+19:29:35 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: C:\Users\Gökalp\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.6
+	OS: Microsoft Windows 10 Home
+	CPU: 8x Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 630
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 renk
+	Used bit depth: 32
+	Driver version: 27.20.100.8729
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_d7403bad0b41f2bd\igdumdim64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_d7403bad0b41f2bd\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_d7403bad0b41f2bd\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_d7403bad0b41f2bd\igd12umd64.dll
+	Current user language: Türkçe (Türkiye)
+
+19:29:35 [INF][      Workbench]: UI is up
+19:29:36 [INF][      Workbench]: Running the application
+19:29:56 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+19:29:56 [WRN][SQL Editor Form]: Unable to connect to localhost
+19:29:56 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:29:56 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:29:56 [INF][  column_widths]: Initializing column width cache for project
+19:29:57 [INF][        WQE.net]: Launching SQL IDE
+19:29:57 [INF][        WQE.net]: SQL IDE UI is ready
+19:30:00 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+19:30:01 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+19:30:02 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+19:31:16 [INF][        WQE.net]: Shutting down SQL editor (project)
+19:31:23 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+19:31:23 [WRN][SQL Editor Form]: Unable to connect to localhost
+19:31:23 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:31:23 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:31:24 [INF][        WQE.net]: Launching SQL IDE
+19:31:24 [INF][        WQE.net]: SQL IDE UI is ready
+19:31:27 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+19:31:27 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+19:31:29 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+19:36:24 [INF][        WQE.net]: Shutting down SQL editor (project)
+19:36:29 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+19:36:29 [WRN][SQL Editor Form]: Unable to connect to localhost
+19:36:29 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:36:29 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:36:29 [INF][        WQE.net]: Launching SQL IDE
+19:36:30 [INF][        WQE.net]: SQL IDE UI is ready
+19:36:34 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+19:36:35 [ERR][wb_admin_control.py:get_config_options:760]: Could not open the file "C:\ProgramData\MySQL\MySQL Server 8.0\my.ini": 'charmap' codec can't decode byte 0x9d in position 3631: character maps to <undefined>
+19:36:35 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+19:36:39 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+19:36:48 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+19:36:52 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+19:36:52 [WRN][SQL Editor Form]: Unable to connect to localhost
+19:36:52 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:36:52 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+19:36:53 [INF][        WQE.net]: Launching SQL IDE
+19:36:53 [INF][        WQE.net]: SQL IDE UI is ready
+19:36:56 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+19:36:56 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+19:36:58 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+21:18:06 [INF][        WQE.net]: Shutting down SQL editor (project)
+21:18:06 [INF][      Workbench]: Shutting down Workbench
+21:18:06 [INF][ mforms managed]: Shutting down mforms wrapper
+21:18:06 [INF][      Workbench]: Done
