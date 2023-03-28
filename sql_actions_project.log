@@ -1,0 +1,559 @@
+[1, 19:29:56] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 19:31:23] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 19:36:52] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 21:58:07] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:19:57] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ primary key (country_code)
+): Running...
+[1, 23:19:57] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ primary key (country_code)
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[2, 23:20:10] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ primary key (country_code)
+): Running...
+[2, 23:20:10] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ primary key (country_code)
+): 0 row(s) affected
+[3, 23:56:10] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ 
+ primary key (country_code)
+): Running...
+[3, 23:56:10] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[4, 23:56:17] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code)
+): Running...
+[4, 23:56:17] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[5, 23:56:22] Create Table disease(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Blood_pressure INT,
+ Obesity INT,
+ Diabetes INT, 
+ 
+ primary key (country_code)
+): Running...
+[5, 23:56:22] Create Table disease(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Blood_pressure INT,
+ Obesity INT,
+ Diabetes INT, 
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[6, 23:56:36] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code)
+): Running...
+[6, 23:56:36] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[7, 23:56:47] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code)
+): Running...
+[7, 23:56:47] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code)
+): Error Code: 1050. Table 'addiciton' already exists
+[8, 00:10:15] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Deaths INT,
+ 
+ primary key (country_code)
+): Running...
+[8, 00:10:15] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Deaths INT,
+ 
+ primary key (country_code)
+): Error Code: 1050. Table 'population' already exists
+[9, 00:10:37] Create Table death(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Deaths INT,
+ 
+ primary key (country_code)
+): Running...
+[9, 00:10:37] Create Table death(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50),
+ years INT,
+ Deaths INT,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[10, 00:15:52] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code)
+): Running...
+[10, 00:15:52] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code)
+): Error Code: 1050. Table 'population' already exists
+[11, 00:16:23] DROP TABLE `sys`.`population`: Running...
+[11, 00:16:23] DROP TABLE `sys`.`population`: 0 row(s) affected
+[12, 00:16:27] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code)
+): Running...
+[12, 00:16:27] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[13, 00:16:40] DROP TABLE `sys`.`addiciton`: Running...
+[13, 00:16:41] DROP TABLE `sys`.`addiciton`: 0 row(s) affected
+[14, 00:16:44] DROP TABLE `sys`.`countries`: Running...
+[14, 00:16:44] DROP TABLE `sys`.`countries`: 0 row(s) affected
+[15, 00:16:49] DROP TABLE `sys`.`death`: Running...
+[15, 00:16:49] DROP TABLE `sys`.`death`: 0 row(s) affected
+[16, 00:16:53] DROP TABLE `sys`.`disease`: Running...
+[16, 00:16:53] DROP TABLE `sys`.`disease`: 0 row(s) affected
+[17, 00:16:56] DROP TABLE `sys`.`disease`: Running...
+[17, 00:16:56] DROP TABLE `sys`.`disease`: Error Code: 1051. Unknown table 'sys.disease'
+[18, 00:17:01] DROP TABLE `sys`.`disease`: Running...
+[18, 00:17:01] DROP TABLE `sys`.`disease`: Error Code: 1051. Unknown table 'sys.disease'
+[19, 00:17:11] DROP TABLE `sys`.`diet`: Running...
+[19, 00:17:11] DROP TABLE `sys`.`diet`: 0 row(s) affected
+[20, 00:17:14] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ 
+ primary key (country_code)
+): Running...
+[20, 00:17:14] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[21, 00:17:22] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code)
+): Running...
+[21, 00:17:22] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[22, 00:17:22] Create Table disease(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Blood_pressure INT,
+ Obesity INT,
+ Diabetes INT, 
+ 
+ primary key (country_code)
+): Running...
+[22, 00:17:22] Create Table disease(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Blood_pressure INT,
+ Obesity INT,
+ Diabetes INT, 
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[23, 00:17:22] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code)
+): Running...
+[23, 00:17:22] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[24, 00:17:22] Create Table death(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Deaths INT,
+ 
+ primary key (country_code)
+): Running...
+[24, 00:17:22] Create Table death(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Deaths INT,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[25, 00:33:27] DROP TABLE `sys`.`population`, `sys`.`disease`, `sys`.`addiciton`, `sys`.`death`, `sys`.`countries`, `sys`.`diet`, `sys`.`disease`: Running...
+[25, 00:33:27] DROP TABLE `sys`.`population`, `sys`.`disease`, `sys`.`addiciton`, `sys`.`death`, `sys`.`countries`, `sys`.`diet`, `sys`.`disease`: Error Code: 1066. Not unique table/alias: 'disease'
+[26, 00:33:49] DROP TABLE `sys`.`population`: Running...
+[26, 00:33:49] DROP TABLE `sys`.`population`: 0 row(s) affected
+[27, 00:33:58] DROP TABLE `sys`.`addiciton`: Running...
+[27, 00:33:58] DROP TABLE `sys`.`addiciton`: 0 row(s) affected
+[28, 00:34:02] DROP TABLE `sys`.`disease`: Running...
+[28, 00:34:02] DROP TABLE `sys`.`disease`: 0 row(s) affected
+[29, 00:34:08] DROP TABLE `sys`.`diet`: Running...
+[29, 00:34:08] DROP TABLE `sys`.`diet`: 0 row(s) affected
+[30, 00:34:11] DROP TABLE `sys`.`death`: Running...
+[30, 00:34:11] DROP TABLE `sys`.`death`: 0 row(s) affected
+[31, 00:34:14] DROP TABLE `sys`.`countries`: Running...
+[31, 00:34:15] DROP TABLE `sys`.`countries`: 0 row(s) affected
+[32, 00:34:23] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ 
+ primary key (country_code)
+): Running...
+[32, 00:34:23] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[33, 00:34:23] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code) References countries(country_code) ON DELETE CASCADE
+): Running...
+[33, 00:34:23] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code) References countries(country_code) ON DELETE CASCADE
+): 0 row(s) affected
+[34, 00:34:23] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): Running...
+[34, 00:34:23] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): Error Code: 1824. Failed to open the referenced table 'death'
+[35, 00:36:07] DROP TABLE `sys`.`population`: Running...
+[35, 00:36:07] DROP TABLE `sys`.`population`: 0 row(s) affected
+[36, 00:36:10] DROP TABLE `sys`.`countries`: Running...
+[36, 00:36:10] DROP TABLE `sys`.`countries`: 0 row(s) affected
+[37, 00:36:17] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ 
+ primary key (country_code)
+): Running...
+[37, 00:36:17] Create Table countries(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ 
+ primary key (country_code)
+): 0 row(s) affected
+[38, 00:36:22] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code) References countries(country_code) ON DELETE CASCADE
+): Running...
+[38, 00:36:22] Create Table population(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Population INT,
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code) References countries(country_code) ON DELETE CASCADE
+): 0 row(s) affected
+[39, 00:36:28] Create Table death(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Deaths INT,
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code) References countries(country_code) ON DELETE CASCADE
+ 
+): Running...
+[39, 00:36:28] Create Table death(
+country_code Varchar(5) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Deaths INT,
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code) References countries(country_code) ON DELETE CASCADE
+ 
+): 0 row(s) affected
+[40, 00:36:39] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): Running...
+[40, 00:36:39] Create Table diet(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Diet_high_in_sodium INT,
+ Diet_low_in_whole_grains INT,
+ Diet_low_in_vegetables INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): 0 row(s) affected
+[41, 00:36:42] Create Table disease(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Blood_pressure INT,
+ Obesity INT,
+ Diabetes INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): Running...
+[41, 00:36:43] Create Table disease(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Blood_pressure INT,
+ Obesity INT,
+ Diabetes INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): 0 row(s) affected
+[42, 00:36:49] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): Running...
+[42, 00:36:49] Create Table addiciton(
+ country_code Varchar(50) Not Null,
+ countries_name Varchar(50) Not Null,
+ years INT Not Null,
+ Drug_use INT,
+ Smoking INT,
+ Alcohol_use INT, 
+ 
+ primary key (country_code, years),
+ Foreign Key (country_code,years) References death(country_code,years) ON DELETE CASCADE
+): 0 row(s) affected
+[43, 00:39:50] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[43, 00:39:50] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[44, 00:39:50] SHOW DATABASES: Executing 
+[44, 00:39:50] SHOW DATABASES: OK
+[45, 00:40:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[45, 00:40:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[46, 00:40:06] SHOW COLUMNS FROM `sys`.`countries`: Executing 
+[46, 00:40:06] SHOW COLUMNS FROM `sys`.`countries`: OK
+[47, 00:40:47] PREPARE stmt FROM 'INSERT INTO `sys`.`countries` (`countries_name`,`country_code`) VALUES(?,?)': Executing 
+[47, 00:40:47] PREPARE stmt FROM 'INSERT INTO `sys`.`countries` (`countries_name`,`country_code`) VALUES(?,?)': OK
+[48, 00:40:50] DEALLOCATE PREPARE stmt: Executing 
+[48, 00:40:50] DEALLOCATE PREPARE stmt: OK
+[49, 00:41:08] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[49, 00:41:08] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[50, 00:41:08] SHOW DATABASES: Executing 
+[50, 00:41:08] SHOW DATABASES: OK
+[51, 00:41:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[51, 00:41:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[52, 00:41:11] SHOW COLUMNS FROM `sys`.`population`: Executing 
+[52, 00:41:11] SHOW COLUMNS FROM `sys`.`population`: OK
+[53, 00:41:45] PREPARE stmt FROM 'INSERT INTO `sys`.`population` (`countries_name`,`country_code`,`years`,`Population`) VALUES(?,?,?,?)': Executing 
+[53, 00:41:45] PREPARE stmt FROM 'INSERT INTO `sys`.`population` (`countries_name`,`country_code`,`years`,`Population`) VALUES(?,?,?,?)': OK
+[54, 00:41:51] DEALLOCATE PREPARE stmt: Executing 
+[54, 00:41:51] DEALLOCATE PREPARE stmt: OK
+[55, 00:42:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[55, 00:42:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[56, 00:42:06] SHOW DATABASES: Executing 
+[56, 00:42:06] SHOW DATABASES: OK
+[57, 00:42:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[57, 00:42:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[58, 00:42:12] SHOW COLUMNS FROM `sys`.`death`: Executing 
+[58, 00:42:12] SHOW COLUMNS FROM `sys`.`death`: OK
+[59, 00:42:44] PREPARE stmt FROM 'INSERT INTO `sys`.`death` (`countries_name`,`country_code`,`years`,`Deaths`) VALUES(?,?,?,?)': Executing 
+[59, 00:42:44] PREPARE stmt FROM 'INSERT INTO `sys`.`death` (`countries_name`,`country_code`,`years`,`Deaths`) VALUES(?,?,?,?)': OK
+[60, 00:42:49] DEALLOCATE PREPARE stmt: Executing 
+[60, 00:42:49] DEALLOCATE PREPARE stmt: OK
+[61, 00:43:23] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[61, 00:43:23] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[62, 00:43:23] SHOW DATABASES: Executing 
+[62, 00:43:23] SHOW DATABASES: OK
+[63, 00:43:26] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[63, 00:43:26] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[64, 00:43:26] SHOW COLUMNS FROM `sys`.`disease`: Executing 
+[64, 00:43:26] SHOW COLUMNS FROM `sys`.`disease`: OK
+[65, 00:44:15] PREPARE stmt FROM 'INSERT INTO `sys`.`disease` (`countries_name`,`country_code`,`years`,`Blood_pressure`,`Diabetes`,`Obesity`) VALUES(?,?,?,?,?,?)': Executing 
+[65, 00:44:15] PREPARE stmt FROM 'INSERT INTO `sys`.`disease` (`countries_name`,`country_code`,`years`,`Blood_pressure`,`Diabetes`,`Obesity`) VALUES(?,?,?,?,?,?)': OK
+[66, 00:44:20] DEALLOCATE PREPARE stmt: Executing 
+[66, 00:44:20] DEALLOCATE PREPARE stmt: OK
+[67, 00:44:54] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[67, 00:44:54] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[68, 00:44:54] SHOW DATABASES: Executing 
+[68, 00:44:54] SHOW DATABASES: OK
+[69, 00:45:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[69, 00:45:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[70, 00:45:00] SHOW COLUMNS FROM `sys`.`addiciton`: Executing 
+[70, 00:45:00] SHOW COLUMNS FROM `sys`.`addiciton`: OK
+[71, 00:45:24] PREPARE stmt FROM 'INSERT INTO `sys`.`addiciton` (`countries_name`,`country_code`,`years`,`Alcohol_use`,`Smoking`,`Drug_use`) VALUES(?,?,?,?,?,?)': Executing 
+[71, 00:45:24] PREPARE stmt FROM 'INSERT INTO `sys`.`addiciton` (`countries_name`,`country_code`,`years`,`Alcohol_use`,`Smoking`,`Drug_use`) VALUES(?,?,?,?,?,?)': OK
+[72, 00:45:29] DEALLOCATE PREPARE stmt: Executing 
+[72, 00:45:29] DEALLOCATE PREPARE stmt: OK
+[73, 00:47:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[73, 00:47:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[74, 00:47:34] SHOW DATABASES: Executing 
+[74, 00:47:34] SHOW DATABASES: OK
+[75, 00:47:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[75, 00:47:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[76, 00:47:37] SHOW COLUMNS FROM `sys`.`diet`: Executing 
+[76, 00:47:37] SHOW COLUMNS FROM `sys`.`diet`: OK
+[77, 00:47:50] PREPARE stmt FROM 'INSERT INTO `sys`.`diet` (`countries_name`,`country_code`,`years`,`Diet_high_in_sodium`,`Diet_low_in_whole_grains`,`Diet_low_in_vegetables`) VALUES(?,?,?,?,?,?)': Executing 
+[77, 00:47:50] PREPARE stmt FROM 'INSERT INTO `sys`.`diet` (`countries_name`,`country_code`,`years`,`Diet_high_in_sodium`,`Diet_low_in_whole_grains`,`Diet_low_in_vegetables`) VALUES(?,?,?,?,?,?)': OK
+[78, 00:47:56] DEALLOCATE PREPARE stmt: Executing 
+[78, 00:47:56] DEALLOCATE PREPARE stmt: OK
+[79, 01:04:49] SET global countries = 1: Running...
+[79, 01:04:49] SET global countries = 1: Error Code: 1193. Unknown system variable 'countries'
+[80, 01:05:23] SELECT
+    *
+FROM
+    mysql.countries
+LIMIT 0, 1000
+: Running...
+[80, 01:05:23] SELECT
+    *
+FROM
+    mysql.countries
+LIMIT 0, 1000
+: Error Code: 1146. Table 'mysql.countries' doesn't exist
